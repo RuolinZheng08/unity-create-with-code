@@ -801,6 +801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e14137f8a1e34249a33cee0e359817b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 15
+  turnSpeed: 20
 --- !u!54 &351712171
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1085,6 +1087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 351712165}
+  offset: {x: 0, y: 5, z: -7}
 --- !u!1001 &578002886
 PrefabInstance:
   m_ObjectHideFlags: 0
